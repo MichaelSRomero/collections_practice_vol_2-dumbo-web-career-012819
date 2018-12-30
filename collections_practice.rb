@@ -1,4 +1,5 @@
 def begins_with_r(array)
+<<<<<<< HEAD
   array.each do |element|
     if !element.start_with?("r")
       return false
@@ -105,3 +106,14 @@ def organize_schools(schools)
 
   return organized
 end
+=======
+  array.each do |tool|
+    if !(tool.start_with?("r"))
+      return false
+    end
+    
+    return true
+  end
+end
+
+>>>>>>> 7d5c8c6edaee78f823d0f9b397cf4b68210b971c
